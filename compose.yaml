@@ -1,0 +1,7 @@
+services:
+  server:
+    image: danyeu/spring-random:v1
+    build:
+      context: .
+    ports:
+      - 8081:8081
